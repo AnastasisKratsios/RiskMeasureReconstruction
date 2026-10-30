@@ -1,0 +1,7 @@
+{
+  "models": ["GBM", "Heston", "Finite"],
+  "repetitions": 2,
+  "n_train": 20,
+  "parameter_seed": 20261029,
+  "strike_seed": 13579
+}

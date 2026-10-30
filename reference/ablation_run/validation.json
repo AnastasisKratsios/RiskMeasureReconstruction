@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "metric_rows": 330,
+  "prediction_rows": 36300,
+  "max_solver_gap": 4.3950065808928684e-10,
+  "positive_gamma_draws_with_incompatibility_witness": 300
+}

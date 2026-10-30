@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "draw_count": 360,
+  "prediction_count": 43200,
+  "max_objective_gap": 1.1272427435926602e-11,
+  "min_objective_gap": -5.329070518200751e-15,
+  "minimum_benchmark_mse": 3.221909682560253e-05,
+  "nonfinite_ratio_count": 0,
+  "max_risk_error_indicator": 1.0592059894187191e-10,
+  "finite_cash_additivity_residual": 7.105427357601002e-15,
+  "checks": [
+    "draws and strikes",
+    "per-draw MSEs and ratios",
+    "sample SDs (ddof=1)",
+    "primal/dual objective gaps",
+    "finite cash-additivity"
+  ]
+}

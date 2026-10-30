@@ -1,0 +1,16 @@
+{
+  "title": "Reconstructing risk preferences from data",
+  "authors": [
+    "Anastasis Kratsios",
+    "Silvana M. Pesenti",
+    "Philipp Zimmermann"
+  ],
+  "source": "User-supplied manuscript text, 2026-10-29",
+  "sha256": "09b56606734c28ffb14f9ee941acfbbc02fd01781d5cb7fac4e24e9c6674fe85",
+  "table_labels": [
+    "tab:risk-gbm",
+    "tab:risk-heston",
+    "tab:risk-finite"
+  ],
+  "precision": "Values transcribed at displayed manuscript precision; not full-precision experiment data."
+}

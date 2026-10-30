@@ -1,0 +1,15 @@
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        Risk measure & Train MSE & Test MSE & OOD Test Ratio \\
+        \midrule
+        Expected Shortfall & $0\pm 0$ & $1.159\times 10^{-7}\pm 1.405\times 10^{-9}$ & $0.473\pm 0.200$ \\
+        Power spectral & $0\pm 0$ & $1.164\times 10^{-7}\pm 1.426\times 10^{-9}$ & $0.461\pm 0.167$ \\
+        Exponential spectral & $0\pm 0$ & $1.171\times 10^{-7}\pm 1.398\times 10^{-9}$ & $0.392\pm 0.157$ \\
+        Wang & $0\pm 0$ & $1.178\times 10^{-7}\pm 1.873\times 10^{-9}$ & $0.580\pm 0.681$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{Heston: mean $\pm$ one sample standard deviation over 30 parameter draws.}
+    \label{tab:risk-heston}
+\end{table}

@@ -1,0 +1,67 @@
+{
+  "repetitions": 30,
+  "n_train": 100,
+  "n_test": 10,
+  "alpha": 0.75,
+  "gammas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "seed": 20261029,
+  "compare_random_dual": false,
+  "random_directions": 100000,
+  "states": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "probabilities": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "L": 1.7320508075706094,
+  "random_sampling": "sphere_plus_zero",
+  "source_hash": "2d78730093a92c734caed405fa39315304dda83ac17e180601e0f16839695ba8",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "clarabel": "0.11.1",
+      "mpmath": "1.3.0",
+      "matplotlib": "3.10.8"
+    },
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "study_type": "ablation"
+}

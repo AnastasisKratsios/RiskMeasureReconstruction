@@ -1,0 +1,5 @@
+Risk measure,Train MSE,Test MSE,Extrapolation TEST ratio
+Expected Shortfall,0.000e+00 ± 0.000e+00,3.425e-10 ± 4.130e-12,0.382 ± 0.165
+Power spectral,0.000e+00 ± 0.000e+00,3.445e-10 ± 4.463e-12,0.374 ± 0.135
+Exponential spectral,0.000e+00 ± 0.000e+00,3.467e-10 ± 4.343e-12,0.319 ± 0.127
+Wang,0.000e+00 ± 0.000e+00,3.491e-10 ± 5.626e-12,0.460 ± 0.519

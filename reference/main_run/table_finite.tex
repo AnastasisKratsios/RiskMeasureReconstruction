@@ -1,0 +1,15 @@
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        Risk measure & Train MSE & Test MSE & OOD Test Ratio \\
+        \midrule
+        Expected Shortfall & $0\pm 0$ & $1.512\times 10^{-30}\pm 6.469\times 10^{-31}$ & $2.668\times 10^{-30}\pm 3.650\times 10^{-30}$ \\
+        Power spectral & $0\pm 0$ & $2.611\times 10^{-30}\pm 1.295\times 10^{-30}$ & $1.813\times 10^{-30}\pm 1.561\times 10^{-30}$ \\
+        Exponential spectral & $0\pm 0$ & $2.143\times 10^{-30}\pm 6.887\times 10^{-31}$ & $1.199\times 10^{-30}\pm 1.311\times 10^{-30}$ \\
+        Wang & $0\pm 0$ & $2.033\times 10^{-30}\pm 1.225\times 10^{-30}$ & $7.159\times 10^{-31}\pm 9.337\times 10^{-31}$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{Finite: mean $\pm$ one sample standard deviation over 30 parameter draws. $S_1$ is uniform over $10^3$ equally spaced points in $[1,10]$. Training strikes lie in $[0.1,0.9]$ and OOD strikes in $[0,0.1)\cup(0.9,1]$. Errors are at floating-point roundoff; cash-additivity gives zero error in exact arithmetic.}
+    \label{tab:risk-finite}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        Risk measure & Train MSE & Test MSE & OOD Test Ratio \\
+        \midrule
+        Expected Shortfall & $0\pm 0$ & $3.425\times 10^{-10}\pm 4.130\times 10^{-12}$ & $0.382\pm 0.165$ \\
+        Power spectral & $0\pm 0$ & $3.445\times 10^{-10}\pm 4.463\times 10^{-12}$ & $0.374\pm 0.135$ \\
+        Exponential spectral & $0\pm 0$ & $3.467\times 10^{-10}\pm 4.343\times 10^{-12}$ & $0.319\pm 0.127$ \\
+        Wang & $0\pm 0$ & $3.491\times 10^{-10}\pm 5.626\times 10^{-12}$ & $0.460\pm 0.519$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{GBM: mean $\pm$ one sample standard deviation over 30 parameter draws.}
+    \label{tab:risk-gbm}
+\end{table}

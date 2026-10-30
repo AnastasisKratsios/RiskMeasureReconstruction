@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checks": 72,
+  "failed_checks": 0,
+  "finite_policy": "Absolute threshold 1e-24; tiny machine residuals are not compared relatively."
+}

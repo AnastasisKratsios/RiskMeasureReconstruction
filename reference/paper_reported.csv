@@ -1,0 +1,13 @@
+model,family,repetitions,train_mse_mean,train_mse_sd,test_mse_mean,test_mse_sd,test_ratio_mean,test_ratio_sd
+GBM,es,30,0,0,3.425e-10,4.13e-12,0.382,0.165
+GBM,power,30,0,0,3.445e-10,4.463e-12,0.374,0.135
+GBM,exponential,30,0,0,3.467e-10,4.343e-12,0.319,0.127
+GBM,wang,30,0,0,3.491e-10,5.626e-12,0.46,0.519
+Heston,es,30,0,0,1.159e-07,1.405e-09,0.473,0.2
+Heston,power,30,0,0,1.164e-07,1.426e-09,0.461,0.167
+Heston,exponential,30,0,0,1.171e-07,1.398e-09,0.392,0.157
+Heston,wang,30,0,0,1.178e-07,1.873e-09,0.58,0.681
+Finite,es,30,0,0,1.512e-30,6.469e-31,2.668e-30,3.65e-30
+Finite,power,30,0,0,2.611e-30,1.295e-30,1.813e-30,1.561e-30
+Finite,exponential,30,0,0,2.143e-30,6.887e-31,1.199e-30,1.311e-30
+Finite,wang,30,0,0,2.033e-30,1.225e-30,7.159e-31,9.337e-31
